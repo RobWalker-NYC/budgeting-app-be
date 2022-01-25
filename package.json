@@ -9,7 +9,7 @@
   },
   "name": "budgeting-app-be",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
