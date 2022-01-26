@@ -1,6 +1,6 @@
 const express = require('express');
 const transRoute = express.Router();
-const transArr = require('../models/transactions.js');
+const transArr = require('../models/data.js');
 
 transRoute.get('/', (req, res) => {
     res.json(transArr)

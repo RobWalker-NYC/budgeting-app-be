@@ -5,7 +5,7 @@ https://github.com/RobWalker-NYC/budget-app-be
 https://github.com/RobWalker-NYC/budget-app-fe
 
 ## Deployed Backend Link
-https://git.heroku.com/rw-backend-budget.git
+ https://rw-backend-budget.herokuapp.com/
 
 ## Deployed Frontend Link
 https://dreamy-raman-d8671a.netlify.app.netlify.app/
