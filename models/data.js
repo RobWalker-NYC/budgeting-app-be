@@ -32,7 +32,7 @@ module.exports = [
     {
       date: "2022-01-08",
       name: "Chase Bank",
-      source: "Income",
+      source: "Bank Fee Zero Balance",
       amount: -35,
     },
     {
