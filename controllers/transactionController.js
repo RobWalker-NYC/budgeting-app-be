@@ -41,9 +41,9 @@ transRoute.put('/:index', (req, res) => {
       return res.status(404).json({message: 'Page not found'});
     }
 
-    let {date, name, amount, from} = req.body;
-    if(date && name && amount && from) {
-        transArr[index] = {date, name, amount, from};
+    let {date, name, source, amount,} = req.body;
+    if(date && name && source && amount) {
+        transArr[index] = {date, name, source, amount};
         return res.json(transArr[index]);
     } else {
     res.status(422).json({error: 'Please provide all fields'});

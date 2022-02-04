@@ -1,44 +1,44 @@
 module.exports = [
     {
       date: "2022-01-01",
-      name: "Groceries",
-      amount: -30,
-      from: "Ideal"
+      name: "Ideal",
+      source: "Groceries",
+      amount: -35,
     },
     {
       date: "2022-01-01",
-      name: "Shopping",
+      name: "Target",
+      source: "Shopping",
       amount: -47,
-      from: "Target"
     },
     {
       date: "2022-01-02",
-      name: "Income",
+      name: "Google",
+      source: "Income",
       amount: 2000,
-      from: "Google"
     },
     {
       date: "2022-01-05",
-      name: "Gas",
+      name: "Shell Gas Station",
+      source: "Gas",
       amount: -25,
-      from: "Shell Gas Station"
     },
     {
       date: "2022-01-06",
-      name: "Rent",
-      amount: -700,
-      from: "Pike International, LLC"
+      name: "Ventura, LLC",
+      source: "Rent",
+      amount: -1858,
     },
     {
       date: "2022-01-08",
-      name: "Income",
-      amount: 2000,
-      from: "Google"
+      name: "Chase Bank",
+      source: "Income",
+      amount: -35,
     },
     {
       date: "2022-01-08",
-      name: "Groceries",
-      amount: -40,
-      from: "Mr. Kiwi"
+      name: "eWerk",
+      source: "Income",
+      amount: 1000,
     },
   ];
